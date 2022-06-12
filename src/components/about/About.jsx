@@ -1,6 +1,9 @@
 import React from 'react'
 import './about.scss'
 
+import { Container, Row, Col } from 'react-grid-system';
+
+
 export default function About() {
   return (
     <div id='about'>
@@ -21,6 +24,27 @@ export default function About() {
                 </div>
               </div>
             </div>
+        </div>
+
+        <div className="col">
+              <h3>SERVICES</h3>
+              <h2>Nossos Serviços</h2>
+
+              <div className="container">
+              <Container>
+                <Row>
+                  <Col sm={4} className="Col">
+                    <img src="/assets/icons/responsive.png" alt="" width={'150px'} />
+                  </Col>
+                  <Col sm={4}  className="Col">
+                      <img src="/assets/icons/responsive.png" alt="" width={'150px'} />
+                  </Col>
+                  <Col sm={4}  className="Col">
+                     <img src="/assets/icons/responsive.png" alt="" width={'150px'} />
+                  </Col>
+                </Row>
+              </Container>
+              </div>
         </div>
     </div>
   )

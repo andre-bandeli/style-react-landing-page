@@ -6,7 +6,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
-import Team from './components/team/Team';
+import Slider from './components/slider/Slider';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Navbar/>
       <Header/>
       <About/>
-      <Team/>
+      <Slider/>
       <Projects/>
       <Contact/>
       <Footer/>

@@ -2,7 +2,7 @@
 #about {
     width: 100%;
     height: 100vh;
-    background-color: pink;
+    background-color: white;
 
     .col-12 {
         position: absolute;
@@ -27,6 +27,35 @@
             }
             img {
                 width: 100px;
+            }
+        }
+    }
+    .col {
+        width: 100%;
+        position: absolute;
+        height: 50%;
+        margin-top: 50vh;
+
+        h2 {
+            margin-top: 1vh;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 7vh;
+        }
+        .container {
+            height: 50%;
+            margin-top: 5vh;
+            
+
+            .Col {
+                margin-top: 2vh;
+                height: 20vh;
+
+                img {
+                    cursor: pointer;
+                    margin-top: 2.5vh;
+                }
             }
         }
     }
@@ -58,9 +87,10 @@
 @media (max-width: 550px ) {
     #about {
         width: 100%;
-        height: 150vh;
+        height: auto;
         .col-12 {
-            height: 120vh;
+            width: 100%;
+            height: 110vh;
             margin-left: 0vh;
             h2 {
                 font-size: 1.2rem;
@@ -85,6 +115,48 @@
                     width: 100px;
                 }
 
+            }
+        }
+
+        .col {
+            height: 100vh;
+            margin-top: 75vh;
+    
+            .container {
+                height: 70%;
+    
+                .Col {
+                    width: 100px;
+                    border: none;
+                    height: 100%;
+                    margin-top: 5vh;
+                  
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px ) {
+    #about {
+        .col-12 {
+            height: auto;
+        }
+        .col {
+
+            height: auto;
+            margin-top: 85vh;
+    
+            .container {
+                height: 70%;
+    
+                .Col {
+                    width: 100%;
+                    border: none;
+                    height: 100%;
+                    margin-top: 5vh;
+                  
+                }
             }
         }
     }
