@@ -6,7 +6,7 @@ import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap'
 export default class NavbarReact extends Component {
     render() {
         return (
-            <div>
+            <div id='navbar'>
                 <Navbar bg="light" expand="lg">
                     <Container>
                         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
