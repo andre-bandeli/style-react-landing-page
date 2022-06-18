@@ -1,0 +1,46 @@
+
+#budget {
+    width: 100%;
+    height: 70vh;
+
+    background-image: url(./yellow-bg.webp);
+    background-position: center;
+
+    .container {
+        height: 100%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .box {
+            width: 30%;
+            h1 {
+                font-weight: bolder;
+            }
+            .btn {
+                width: 200px;
+                height: 5vh;
+                margin-top: 10vh;
+                position: relative;
+                background-color: rgb(226, 14, 50);
+                border: none;
+                color: white;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 550px) {
+    #budget {
+        margin-top: 210vh;
+
+        .container {
+            .btn {
+                margin-left: -2.5vh;
+            }
+        }
+    }
+}

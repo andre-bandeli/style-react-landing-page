@@ -2,5 +2,162 @@
 #about {
     width: 100%;
     height: 100vh;
-    background-color: blue;
+    background-color: white;
+
+    .col-12 {
+        position: absolute;
+        height: 50%;
+        background-color: #1E90FF;
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 5%;
+        }
+        h3 {
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+        .container {
+            display: flex;
+            margin-top: 2%;
+            .col-4 {
+                height: 70%;
+                margin-top: 2%;
+            }
+            img {
+                width: 100px;
+            }
+        }
+    }
+    .col {
+        width: 100%;
+        position: absolute;
+        height: 50%;
+        margin-top: 50vh;
+
+        h2 {
+            margin-top: 1vh;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 7vh;
+        }
+        .container {
+            height: 50%;
+            margin-top: 5vh;
+            
+
+            .Col {
+                margin-top: 2vh;
+                height: 20vh;
+
+                img {
+                    cursor: pointer;
+                    margin-top: 2.5vh;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1450px ) {
+    #about {
+
+    
+        .col-12 {
+
+            h2 {
+                font-size: 2rem;
+                margin-top: 10%;
+            }
+            h3 {
+                font-size: 1.5rem;
+                font-weight: 300;
+            }
+    
+            .container {
+                margin-top: 7%;
+                img {
+                    width: 120px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 550px ) {
+    #about {
+        width: 100%;
+        height: auto;
+        .col-12 {
+            width: 100%;
+            height: auto;
+            margin-left: 0vh;
+            h2 {
+                font-size: 1.2rem;
+                margin-top: 20%;
+            }
+            h3 {
+                font-size: 1rem;
+                font-weight: 300;
+            }
+            .container {
+                height: 25vh;
+                display: inline;
+                margin-left: 0vh;
+                
+                .col-4 {
+                    width: 100%;
+                    height: 70%;
+                    margin-left: 0vh;
+                    margin-top: 15%;
+                }
+                img {
+                    width: 100px;
+                }
+
+            }
+        }
+
+        .col {
+            height: 100vh;
+            margin-top: 105vh;
+    
+            .container {
+                height: 70%;
+    
+                .Col {
+                    width: 100px;
+                    border: none;
+                    height: 100%;
+                    margin-top: 5vh;
+                  
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px ) {
+    #about {
+        .col-12 {
+            height: auto;
+        }
+        .col {
+
+            height: auto;
+            margin-top: 95vh;
+    
+            .container {
+                height: 70%;
+    
+                .Col {
+                    width: 100%;
+                    border: none;
+                    height: 100%;
+                    margin-top: 5vh;
+                  
+                }
+            }
+        }
+    }
 }
