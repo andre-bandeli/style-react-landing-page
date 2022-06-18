@@ -42,3 +42,27 @@
         }
     }
 }
+
+@media (max-width: 550px) {
+    
+#projects {
+    height: auto;
+    .col-8 {
+
+
+        .col-12 {
+            display: inline-block;
+            .col-6 {
+                width: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                }
+            }
+
+
+        }
+    }
+}
+}

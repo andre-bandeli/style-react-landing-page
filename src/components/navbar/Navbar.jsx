@@ -14,11 +14,11 @@ export default class NavbarReact extends Component {
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Sobre Nós</Nav.Link>
-                            <Nav.Link href="#link">Serviços</Nav.Link>
-                            <Nav.Link href="#link">Orçamentos</Nav.Link>
-                            <Nav.Link href="#link">Projetos</Nav.Link>
-                            <Nav.Link href="#link">Contato</Nav.Link>
+                            <Nav.Link href="#about">Sobre Nós</Nav.Link>
+                            <Nav.Link href="#about">Serviços</Nav.Link>
+                            <Nav.Link href="#budget">Orçamentos</Nav.Link>
+                            <Nav.Link href="#projects">Projetos</Nav.Link>
+                            <Nav.Link href="#contact">Contato</Nav.Link>
                             <NavDropdown title="Redes" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Whatsapp</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Facebook action</NavDropdown.Item>

@@ -36,5 +36,11 @@
 @media (max-width: 550px) {
     #budget {
         margin-top: 210vh;
+
+        .container {
+            .btn {
+                margin-left: -2.5vh;
+            }
+        }
     }
 }
