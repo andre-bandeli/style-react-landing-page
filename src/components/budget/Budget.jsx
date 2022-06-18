@@ -1,10 +1,10 @@
 import React from 'react'
-import './slider.scss'
+import './budget.scss'
 import { Button } from 'react-bootstrap';
 
-export default function Team() {
+export default function Budget() {
   return (
-    <div id='team'>
+    <div id='budget'>
         <div className="container">
           <div className="box">
             <h1>SOLICITE UM ORÇAMENTO</h1>

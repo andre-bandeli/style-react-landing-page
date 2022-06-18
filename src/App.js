@@ -7,7 +7,7 @@ import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
 import SimpleMap from './components/simpleMap/SimpleMap';
-import Slider from './components/slider/Slider';
+import Budget from './components/budget/Budget';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Navbar/>
       <Header/>
       <About/>
-      <Slider/>
+      <Budget/>
       <Projects/>
       <Contact/>
       <Footer/>
