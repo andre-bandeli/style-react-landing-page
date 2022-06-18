@@ -14,13 +14,16 @@ export default function About() {
               <h3>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash !</h3>
               <div className="container">
                 <div className="col-4">
-                    <img src="/assets/icons/science.png" alt="" />
+                    <img src="/assets/icons/delivery.png" alt="" />
+                    <h4>Delivery Free</h4>
                 </div>
                 <div className="col-4">
-                    <img src="/assets/icons/javascript.png" alt="" />
+                    <img src="/assets/icons/price.png" alt="" />
+                    <h4>Melhores Preços</h4>
                 </div>
                 <div className="col-4">
-                    <img src="/assets/icons/html-5.png" alt="" />
+                    <img src="/assets/icons/forest.png" alt="" />
+                    <h4>Responsabilidade Ambiental</h4>
                 </div>
               </div>
             </div>
@@ -33,14 +36,18 @@ export default function About() {
               <div className="container">
               <Container>
                 <Row>
-                  <Col sm={4} className="Col">
-                    <img src="/assets/icons/responsive.png" alt="" width={'150px'} />
+                  <Col sm={3} className="Col">
+                    <img src="/assets/icons/responsive.png" alt="" width={'130px'} />
+                    <h3>Lorem ipsum dolor sitame.</h3>
                   </Col>
-                  <Col sm={4}  className="Col">
-                      <img src="/assets/icons/responsive.png" alt="" width={'150px'} />
+                  <Col sm={3}  className="Col">
+                      <img src="/assets/icons/responsive.png" alt="" width={'130px'} />
+                      <h3>Lorem ipsum dolor sitame.</h3>
                   </Col>
-                  <Col sm={4}  className="Col">
-                     <img src="/assets/icons/responsive.png" alt="" width={'150px'} />
+                  <Col sm={3}  className="Col">
+                     <img src="/assets/icons/responsive.png" alt="" width={'130px'} />
+
+                     <h3>Lorem ipsum dolor sitame.</h3>
                   </Col>
                 </Row>
               </Container>
