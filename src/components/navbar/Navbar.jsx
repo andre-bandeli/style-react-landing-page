@@ -9,7 +9,8 @@ export default class NavbarReact extends Component {
             <div id='navbar'>
                 <Navbar bg="light" expand="lg">
                     <Container>
-                        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                        <Navbar.Brand href="#home"> <img src="/assets/img/logo.png" width={'50px'} alt="" />
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">

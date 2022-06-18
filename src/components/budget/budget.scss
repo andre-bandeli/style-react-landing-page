@@ -35,12 +35,18 @@
 
 @media (max-width: 550px) {
     #budget {
-        margin-top: 210vh;
+        margin-top: 220vh;
 
         .container {
             .btn {
                 margin-left: -2.5vh;
             }
         }
+    }
+}
+@media (max-width: 550px) {
+    #budget {
+        margin-top: 240vh;
+
     }
 }

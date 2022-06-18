@@ -8,7 +8,7 @@ export default function Header() {
         <div className="container">
             <h1>Style React Template</h1>
             <h3>Um template desenvolvido em react</h3>
-            <Button variant="secondary">Secondary</Button>{' '}
+            <Button variant="secondary"> int </Button>{' '}
 
         </div>
     </div>

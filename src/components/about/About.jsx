@@ -37,15 +37,15 @@ export default function About() {
               <Container>
                 <Row>
                   <Col sm={3} className="Col">
-                    <img src="/assets/icons/responsive.png" alt="" width={'130px'} />
+                    <img src="/assets/icons/vaso.png" alt="" width={'130px'} />
                     <h3>Lorem ipsum dolor sitame.</h3>
                   </Col>
                   <Col sm={3}  className="Col">
-                      <img src="/assets/icons/responsive.png" alt="" width={'130px'} />
+                      <img src="/assets/icons/terra.png" alt="" width={'130px'} />
                       <h3>Lorem ipsum dolor sitame.</h3>
                   </Col>
                   <Col sm={3}  className="Col">
-                     <img src="/assets/icons/responsive.png" alt="" width={'130px'} />
+                     <img src="/assets/icons/flor.png" alt="" width={'130px'} />
 
                      <h3>Lorem ipsum dolor sitame.</h3>
                   </Col>
