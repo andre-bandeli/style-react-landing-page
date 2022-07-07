@@ -1,26 +1,9 @@
 
-import './App.css';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
-import Navbar from './components/navbar/Navbar';
-import Projects from './components/projects/Projects';
-import SimpleMap from './components/simpleMap/SimpleMap';
-import Budget from './components/budget/Budget';
+import Routes from "./Routes"
 
 function App() {
   return (
-    <div className="App">
-      
-      <Navbar/>
-      <Header/>
-      <About/>
-      <Budget/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <Routes/>
   );
 }
 
