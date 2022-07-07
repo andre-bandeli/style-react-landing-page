@@ -1,0 +1,18 @@
+
+
+
+#navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.507);
+
+    .link {
+        color: rgba(0, 0, 0, 0.842);
+        text-decoration: none;
+    }
+
+    .hv:hover {
+        font-weight: bolder;
+    }
+}
