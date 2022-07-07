@@ -3,39 +3,69 @@ import React from 'react'
 import './contact.scss'
 
 import SimpleMap from '../simpleMap/SimpleMap';
+import ReactElasticCarousel from 'react-elastic-carousel'
 
 
 
 export default function Contact() {
 
+  const breakPoints = [
+    {width: 1, itemsToShow: 1 },
+    {width: 550, itemsToShow: 2},
+    {width: 768, itemsToShow: 3},
+    {width: 1200, itemsToShow: 3},
+  ]
+
+
   return (
     <div id='contact'>
+      <h2>Accesso Rápido</h2>
         <div className="col-12">
-          <h2>Nossos Contatos</h2>
+          
 
-          <div className="box">
-              <div className="col-3">
-                  <img src="/assets/icons/whatsapp.png" alt="" />
+          <div className="container">
+        <ReactElasticCarousel breakPoints={breakPoints}>
+
+                <div className='box'>
+                    <div className="text">
+                        <h2>Receita 1</h2>
+                    </div>
+                </div>
+               <div className='box'>
+            
+                    <div className="text">
+                        <h2>Receita 1</h2>
+                    </div>
+               </div>
+
+               <div className='box'>
                   <div className="text">
-                    <h3>Whatsapp</h3>
+                      <h2>Receita 1</h2>
                   </div>
-              </div>
-              <div className="col-3">
-              <img src="/assets/icons/facebook.png" alt="" />
+               </div>
+               <div className='box'>
                   <div className="text">
-                    <h3>Facebook</h3>
+                      <h2>Receita 1</h2>
                   </div>
-              </div>
-              <div className="col-3">
-              <img src="/assets/icons/instagram.png" alt="" />
+               </div>
+               <div className='box'>
                   <div className="text">
-                    <h3>Instagram</h3>
+                      <h2>Receita 1</h2>
                   </div>
-              </div>
-          </div>
+               </div>
+               <div className='box'>
+                  <div className="text">
+                      <h2>Receita 1</h2>
+                  </div>
+               </div>
+               <div className='box'>
+                  <div className="text">
+                      <h2>Receita 1</h2>
+                  </div>
+               </div>
+
+          </ReactElasticCarousel>
         </div>
-        <div className="redes">
-        <SimpleMap/>
         </div>
     </div>
   )
