@@ -1,14 +1,12 @@
 import React from 'react'
 import './header.scss'
-import Button from 'react-bootstrap/Button';
 
 export default function Header() {
   return (
     <div id='header'>
         <div className="container">
-            <h1>Style React Template</h1>
-            <h3>Um template desenvolvido em react</h3>
-            <Button variant="secondary"> int </Button>{' '}
+            <h1>Nossa <span className='spn'>Cozinha</span></h1>
+            <h3>RECEITAS CULINÁRIAS RETIRADAS DO CANAL DO YOUTUBE DA <span className='spn-sec'>PAOLA CAROSELLA</span></h3>
 
         </div>
     </div>

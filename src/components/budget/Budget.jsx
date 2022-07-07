@@ -7,8 +7,10 @@ export default function Budget() {
     <div id='budget'>
         <div className="container">
           <div className="box">
-            <h1>SOLICITE UM ORÇAMENTO</h1>
-            <Button variant="warning">CONTACT</Button>{' '}
+            <img src="assets/img/giphy.webp" alt="" />
+          </div>
+          <div className="box">
+            <h2>Confira as melhores receitas do canal da chef de cozinha Paolla Carossela. </h2>
           </div>
         
         </div>

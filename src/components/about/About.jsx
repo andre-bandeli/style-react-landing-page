@@ -10,12 +10,12 @@ export default function About() {
 
         <div className="col-12">
             <div className="text-box">
-              <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-              <h3>This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash !</h3>
+              <h3>SOBRE O SITE</h3>
+              <h2>REPOSITÓRIO DE RECEITAS DA PAOLLA</h2>
               <div className="container">
                 <div className="col-4">
                     <img src="/assets/icons/delivery.png" alt="" />
-                    <h4>Delivery Free</h4>
+                    <h4>RECEITAS LISTADAS</h4>
                 </div>
                 <div className="col-4">
                     <img src="/assets/icons/price.png" alt="" />
@@ -23,31 +23,31 @@ export default function About() {
                 </div>
                 <div className="col-4">
                     <img src="/assets/icons/forest.png" alt="" />
-                    <h4>Responsabilidade Ambiental</h4>
+                    <h4>UM SITE PARA ESTUDOS EM REACT E JAVA</h4>
                 </div>
               </div>
             </div>
         </div>
 
         <div className="col">
-              <h3>SERVICES</h3>
-              <h2>Nossos Serviços</h2>
+              <h3>CATEGORIAS</h3>
+              <h2>Principais Categorias</h2>
 
               <div className="container">
               <Container>
                 <Row>
                   <Col sm={3} className="Col">
-                    <img src="/assets/icons/vaso.png" alt="" width={'130px'} />
-                    <h3>Lorem ipsum dolor sitame.</h3>
+                    <img src="/assets/img/massas.png" alt="" width={'230px'} />
+                    <h3>Receitas vegetarianas</h3>
                   </Col>
                   <Col sm={3}  className="Col">
-                      <img src="/assets/icons/terra.png" alt="" width={'130px'} />
-                      <h3>Lorem ipsum dolor sitame.</h3>
+                      <img src="/assets/img/vegan.png" alt="" width={'230px'} />
+                      <h3>Massas e doces</h3>
                   </Col>
                   <Col sm={3}  className="Col">
-                     <img src="/assets/icons/flor.png" alt="" width={'130px'} />
+                     <img src="/assets/img/doces.png" alt="" width={'230px'} />
 
-                     <h3>Lorem ipsum dolor sitame.</h3>
+                     <h3>Doces</h3>
                   </Col>
                 </Row>
               </Container>

@@ -8,15 +8,25 @@
         position: absolute;
         height: 50%;
         background-image: linear-gradient(to right top, #051937, #003a5c, #005e79, #008388, #21a88b);
+        background-image: url(./fundo.jpg);
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
         h2 {
-            font-size: 1.5rem;
-            margin-top: 5%;
-            color: white;
+            width: 50%;
+            margin: auto;
+            font-size: 2rem;
+            margin-top: 1%;
+            color: rgb(0, 0, 0);
+            background-color: rgba(255, 255, 255, 0.548);
         }
         h3 {
             font-size: 1rem;
-            font-weight: 300;
+            font-weight: bolder;
+            margin-top: 4%;
+            color: orange;
         }
 
         .container {
@@ -30,6 +40,9 @@
                 width: 100px;
             }
             h4 {
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
                 font-size: 1rem;
                 color: rgba(255, 68, 0, 0.712);
                 margin-top: 2vh;
@@ -62,8 +75,8 @@
 
             .Col {
                 margin-top: 2vh;
-                height: 30vh;
-                box-shadow: rgba(149, 157, 165, 0.377) 0px 8px 24px;
+                height: 38vh;
+                box-shadow: rgba(149, 157, 165, 0.048) 0px 8px 24px;
                 border-radius: 5px;
                 margin-left: auto;
                 margin-right:  auto;
@@ -71,8 +84,8 @@
 
                 h3 {
                     font-size: 1.2rem;
-                    font-weight: 300;
-                    color: black;
+                    font-weight: bold;
+                    color: rgba(37, 36, 36, 0.897);
                 }
                 img {
             
@@ -85,6 +98,20 @@
         }
     }
 }
+@media (max-width: 1550px) {
+    #about {
+    
+        .col {
+
+            .container {
+                margin-left: 10%;
+                margin-right: 10%;
+
+            }
+        }
+    }
+}
+
 @media (max-width: 1450px ) {
     #about {
 
@@ -107,8 +134,40 @@
                 }
             }
         }
+        .col {
+
+            .container {
+                height: 50%;
+                width: 90%;
+                margin-top: 5vh;
+                margin-left: 10%;
+                margin-right: 10%;
+
+            }
+        }
+       
     }
 }
+@media (max-width: 850px) {
+    #about {
+        width: 100%;
+        height: 110vh;
+        background-color: white;
+    
+        .col {
+
+            .container {
+                height: 50%;
+                width: 90%;
+                margin-top: 5vh;
+                margin-left: 10%;
+                margin-right: 10%;
+
+            }
+        }
+    }
+}
+
 @media (max-width: 550px ) {
     #about {
         width: 100%;
